@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy for Super Copy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            font-weight: bold;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Super Copy</h1>
+
+    <p><strong>Last Updated:</strong> June 21, 2025</p>
+
+    <p>Welcome to Super Copy! We understand how important your privacy is, and we are committed to protecting your personal information. This Privacy Policy is intended to explain how we collect, use, and protect your information when you use our Chrome extension, "Super Copy".</p>
+
+    <p>Please read and understand this policy carefully before using Super Copy. By installing and using this extension, you agree to the practices described in this Privacy Policy.</p>
+
+    <h2>1. Information We Collect</h2>
+
+    <p>To provide its core functionality—saving and managing web pages you specify—Super Copy needs to request certain browser permissions. We promise to request and use these permissions only to the extent necessary to provide our services. We do not collect or store your Personally Identifiable Information (PII).</p>
+
+    <p>Specifically, we handle the following types of information:</p>
+    <ul>
+        <li><strong>Web Content You Actively Save:</strong> When you use Super Copy to save a web page, the extension processes and saves the text, images, and related metadata (such as the page title and URL) that you choose or specify on that page. This content is essential for the extension's core features.</li>
+        <li><strong>Non-Personal Information:</strong> We may collect anonymous, non-personal technical information, such as the extension's version number, browser type and version, and operating system. This information is used to analyze usage patterns to help us improve our product and fix potential bugs.</li>
+    </ul>
+
+    <h2>2. Permissions We Request and Their Use</h2>
+
+    <p>Super Copy requires you to grant the following Chrome browser permissions to operate:</p>
+    <ul>
+        <li>
+            <strong><code>storage</code> and <code>unlimitedStorage</code>:</strong>
+            <ul>
+                <li><strong>Purpose:</strong> These two permissions are fundamental to Super Copy. We need this access to save your list of web pages, settings, and the content you actively save within your local browser storage.</li>
+                <li><strong>Data Flow:</strong> All data is <strong>stored on your local device</strong>. We do not upload this data to any external servers. The <code>unlimitedStorage</code> permission ensures that you do not lose data due to Chrome's default storage limits, especially if you save a large number of pages. You have full control over your data.</li>
+            </ul>
+        </li>
+        <li>
+            <strong><code>clipboardWrite</code>:</strong>
+            <ul>
+                <li><strong>Purpose:</strong> This permission allows Super Copy to provide a "Copy" feature, enabling you to copy the title or link of a saved page to your clipboard with a single click for easy sharing and use.</li>
+                <li><strong>Data Flow:</strong> The extension will only write to your clipboard when you explicitly click a relevant copy button. We will <strong>never</strong> read any existing information from your clipboard.</li>
+            </ul>
+        </li>
+        <li>
+            <strong><code>activeTab</code>:</strong>
+            <ul>
+                <li><strong>Purpose:</strong> When you click the Super Copy icon in your browser toolbar, this permission allows the extension to temporarily access the tab you are currently viewing. This is necessary to get the current page's URL and title so you can quickly save it.</li>
+                <li><strong>Data Flow:</strong> This permission is temporary and strictly limited to the active tab you are interacting with. The extension cannot and does not access other tabs or your Browse history. Access is terminated as soon as you navigate away from the current page or close the extension's interface.</li>
+            </ul>
+        </li>
+        <li>
+            <strong><code>content_scripts</code> (for <code>http://*/*</code>, <code>https://*/*</code>, <code>file://*/*</code>):</strong>
+            <ul>
+                <li><strong>Purpose:</strong> To allow you to invoke and use Super Copy's features directly on any web page (e.g., saving a page via a right-click context menu), we need to inject a small script into the page using <code>content_scripts</code>.</li>
+                <li><strong>Data Flow:</strong> This script only executes extension functions when needed, such as responding to your clicks. It does not actively scrape any information from the page unrelated to the extension's functionality, nor does it monitor your Browse activity in the background. Its scope is strictly limited to enabling the core features of the extension.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>3. Data Storage and Security</h2>
+
+    <p>All web content and lists you save through Super Copy are stored <strong>directly in your browser's local storage on your computer</strong> using Chrome's <code>storage</code> API. This means:</p>
+    <ul>
+        <li><strong>Your data never leaves your computer.</strong> We do not have the ability to access, view, or share any of your saved web page data.</li>
+        <li><strong>You have full control over your data.</strong> You can view and delete your saved content at any time through the extension's management interface. If you uninstall the Super Copy extension, all associated data will also be permanently deleted from your browser.</li>
+    </ul>
+    <p>We are committed to taking reasonable security measures to protect your information from unauthorized access or disclosure.</p>
+
+    <h2>4. Information Sharing and Disclosure</h2>
+
+    <p>We solemnly swear that we will <strong>not sell, trade, rent, or otherwise share any of your personal information or saved web page data with any third party</strong>. This is because we do not collect this data on our servers in the first place.</p>
+
+    <h2>5. Children's Privacy</h2>
+
+    <p>Super Copy is not intended for use by children under the age of 13. We do not knowingly collect any personal information from children. If a parent or guardian becomes aware that a child has used this extension without their consent, please contact us, and we will take immediate steps to address the issue.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+
+    <p>We may update this Privacy Policy from time to time to reflect changes in our extension's functionality or legal requirements. We will post any changes on this page and update the "Last Updated" date at the top. We encourage you to review this policy periodically to stay informed of our latest privacy practices.</p>
+
+    <h2>7. Contact Us</h2>
+
+    <p>If you have any questions, comments, or suggestions about this Privacy Policy, please contact us:</p>
+    <ul>
+        <li><strong>Email:</strong> [Please insert your contact email here, e.g., support@supercopy.com]</li>
+        <li><strong>Feedback Page:</strong> [Provide a link here if you have an online feedback channel]</li>
+    </ul>
+
+</body>
+</html>
